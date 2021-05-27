@@ -141,7 +141,7 @@ In a sum with a Kronecker $\delta$ multiplying vector or matrix components, summ
 $$
 \sum_{j} a_{j} \delta_{ij} = a_i.
 $$
-Essentially, summing over $j$ picks out the $j=i$ term from the summand. The Dirac $\delta$ function works analogously: integrating $f(x)\delta(x-c)$ over $x$ replaces $x$ with $c$, returning just $f(c)$—it just sets $x=c$ everywhere in the integrand. Incidentally, the $\delta$ function is symmetric; $\delta(c-x)$ has the same effect as $\delta(x-c)$. I sometimes exploit this, choosing the order of terms in the argument of a $\delta$ function to make it more readable.
+Essentially, summing over $j$ picks out the $j=i$ term from the summand. The Dirac $\delta$ function works analogously: integrating $f(x)\delta(x-c)$ over $x$ replaces $x$ with $c$, returning just $f(c)$—it just sets $x=c$ in the rest of the integrand. Incidentally, the $\delta$ function is symmetric; $\delta(c-x)$ has the same effect as $\delta(x-c)$. I sometimes exploit this in lectures, choosing the order of terms in the argument of a $\delta$ function to make it more readable.
 
 A few years after Dirac's introduction of $\delta(x)$, mathematician Laurent Schwartz put it on a firm mathematical footing, basically creating a new area of mathematics to do so: the theory of *distributions* (distinct from probability distributions) or *generalized functions* (there were hints of $\delta(x)$ and generalized functions in earlier work). The math literature in this area tends to be formal and technical, and not very accessible to non-mathematicians.
 
